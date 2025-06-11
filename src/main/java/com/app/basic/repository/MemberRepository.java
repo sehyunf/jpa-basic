@@ -1,10 +1,10 @@
 package com.app.basic.repository;
 
+import com.app.basic.domain.entity.Member;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
-import java.lang.reflect.Member;
 import java.util.List;
 import java.util.Optional;
 
